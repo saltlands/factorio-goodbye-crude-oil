@@ -1,0 +1,11 @@
+{
+    "name": "goodbye-crude-oil",
+    "version": "0.0.1",
+    "title": "Goodbye Crude Oil",
+    "author": "saltlands",
+    "contact": "",
+    "homepage": "",
+    "factorio_version": "0.18",
+    "dependencies": ["base >= 0.17"],
+    "description": "Removes crude oil deposits and crude oil tech/recipes. All oil-based products stem from Coal Liquefaction instead, and the new Coal Compaction tech/recipe jump-starts the Coal Liquefaction process without requiring Heavy Oil."
+}
