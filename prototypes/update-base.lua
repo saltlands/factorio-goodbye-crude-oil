@@ -19,7 +19,10 @@ for _, effect in pairs(tech.effects) do
 end
 tech.effects = new_effects
 
--- Remove oil barrels from fluid-handling tech
+-- Remove oil barrels from fluid-handling tech. This isn't working; barreling
+-- recipes are not found in this effects table. Only storage-tank, pump, and
+-- empty-barrel are in this table (tech.effects) even though they appear as
+-- effects in data.raw.
 new_effects, tech = {}, _G.data.raw["technology"]["fluid-handling"]
 for _, effect in pairs(tech.effects) do
     if effect.type ~= "unlock-recipe" or (effect.recipe ~= "fill-crude-oil-barrel" and effect.recipe ~= "empty-crude-oil-barrel") then
