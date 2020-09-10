@@ -16,4 +16,6 @@ script.on_init(function(_event)
 
     -- Prevent new resources from showing up.
     game.surfaces.nauvis.map_gen_settings.autoplace_controls['crude-oil'].frequency = 0
+    game.surfaces.nauvis.map_gen_settings.autoplace_controls['crude-oil'].size = 0
+    game.surfaces.nauvis.map_gen_settings.autoplace_controls['crude-oil'].richness = 0
 end)
