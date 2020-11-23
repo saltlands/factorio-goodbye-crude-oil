@@ -9,6 +9,7 @@ tech.effects = new_effects
 
 -- Change oil-processing tech icon (it was a pumpjack, but that entity no longer exists)
 tech.icon = "__goodbye-crude-oil__/graphics/tech-processing.png"
+tech.icon_size = 128
 
 -- Remove advanced-oil-processing recipe from advanced-oil-processing tech
 new_effects, tech = {}, _G.data.raw["technology"]["advanced-oil-processing"]
